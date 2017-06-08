@@ -21,4 +21,7 @@ fn main() {
             sleep(Duration::from_millis(4680));
         }
     }).expect("Could not export GPIO Pin");
+
+    // Be a good command-line citizen.
+    ::std::process::exit(1);
 }
