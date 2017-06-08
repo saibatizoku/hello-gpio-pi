@@ -1,0 +1,7 @@
+[package]
+name = "hello-gpio-pi"
+version = "0.1.0"
+authors = ["Joaquín R <globojorro@gmail.com>"]
+
+[dependencies]
+sysfs_gpio = "0.5"
